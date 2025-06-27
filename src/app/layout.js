@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import Scroll from "./components/Scroll";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
 			>
 				<Navbar />
 				<Services />
+				<Scroll />
 				{children}
 				<Footer />
 			</body>

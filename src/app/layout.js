@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Scroll from "./components/Scroll";
 import Project from "./components/Projects";
 import Aboutus from "./components/Aboutus";
+import Contact from "./components/Contact";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
 				<Scroll />
 				<Project />
 				<Aboutus />
+				<Contact />
 				{children}
 				<Footer />
 			</body>
